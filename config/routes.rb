@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   
   
-  
+  resources :articles
 
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
