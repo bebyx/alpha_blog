@@ -4,18 +4,13 @@
   <title>AlphaBlog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+  <%= csrf_meta_tag %>
 </head>
 <body>
-
-<% flash.each do |name, msg| %>
-
-<ul>
-  <li><%= msg %></li>
   
-</ul>
+  <header><%= render 'layouts/header' %></header>
 
-<% end %>
+<%= render 'layouts/messages' %>
 
 <%= yield %>
 
