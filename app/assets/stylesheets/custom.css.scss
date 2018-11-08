@@ -1,0 +1,88 @@
+$navbar-default-bg: #000000;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+    float: left;
+    /*font-size: ;*/
+    color: #fff;
+    
+}
+
+#logo:hover {
+    background: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.nav-link a:hover{
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+ul.nav a:hover { 
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.5) !important;
+    text-decoration: none;
+}
+
+ul.dropdown-menu a:hover { 
+    color: #fff !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    text-decoration: none;
+}
+
+.center { text-align: center; }
+
+.jumbotron {
+    background-image: asset-url("home-photo.jpg");
+    background-size: cover;
+    
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+    margin-bottom: 50 px;
+    line-height: 2;
+    
+}
+
+.btn-home {
+    font-size: 2em;
+    background-color: black;
+    border: none;
+    
+}
+
+.btn-home:hover {
+    background-color: gray;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+}
+
+
+.footer ul {
+    padding-top: 15px;
+    float: right;
+}
+
+.footer ul li {
+    float: left;
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
