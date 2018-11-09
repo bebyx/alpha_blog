@@ -15,10 +15,8 @@ $navbar-default-bg: #000000;
     text-decoration: none;
 }
 
-.nav-link a:hover{
-    color: #fff !important;
-    background: rgba(255, 255, 255, 0.5);
-    text-decoration: none;
+.navbar {
+    border-radius: 0 0 5px 5px !important;
 }
 
 ul.nav a:hover { 
@@ -59,9 +57,21 @@ ul.dropdown-menu a:hover {
     background-color: gray;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
+
+html {
+    height: 100%;
+}
+
+
+body {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 100px;
+}
+
+ .footer {
+    position: absolute;
+    bottom: 0px;
     left: 0;
     width: 100%;
     color: white;
@@ -69,8 +79,7 @@ ul.dropdown-menu a:hover {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
-    padding-right: 10px;
-    
+    padding-right: 10px;  
 }
 
 
